@@ -1,5 +1,5 @@
 .bg-side{
-    background-color: #484554;
+    background-color: #282a36;
     color: white;
     height: 100vh;
     
@@ -20,7 +20,7 @@
 }
 
 .btn-custom-primary{
-    background-color: #7D6FD6;
+    background-color: #3D7B80;
     border: none;
     box-shadow: 2px 2px 5px 1px black;
     color: white;

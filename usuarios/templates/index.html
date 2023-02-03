@@ -1,0 +1,57 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Um bot que irá moderar e deixar a sua comunidade segura de um jeito fácil!">
+  <title>Ado.te</title>
+  <link href = "{% static 'adote/style.css '%} " rel="stylesheet">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <!-- owl stylesheets --> 
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/owl.carousel.min.css">
+  <link rel="stylesoeet" href="static/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+</head>
+
+<body>
+  <header class="cabecalho">
+      <a class="cabecalho-menu-item" href="#">Logar</a>
+      <a class="cabecalho-menu-item" href="{% url 'cadastro' %}">Cadastrar</a>
+  </header>
+
+  <main class="conteudo">
+    <section class="conteudo-principal">
+      <div class="conteudo-principal-escrito">
+        <h1 class="conteudo-principal-escrito-titulo">Ado.te</h1>
+        <h2 class="conteudo-principal-escrito-subtitulo">Encontre um lar para um pet ou encontre o pet perfeito para você</h2>
+        <button class="conteudo-principal-escrito-botao">Ver os pets</button>
+      </div>
+      <img class="conteudo-principal-imagem"src="{% static 'usuarios/img/logo.png' %}" alt="Imagem">
+      
+    </section>
+
+  </main>
+
+  <!-- <footer class="footer navbar-fixed-bottom"> -->
+    <footer class="rodape footer navbar-fixed-bottom">
+        <section class="rodape-itens">
+            <a class="btn btn-outline-light btn-floating col-1" href="https://www.instagram.com/patriciar_daros/" target = "_black" role="button"><i class="fab fa-instagram" style='font-size:30px'></i> 
+            <a class="btn btn-outline-light btn-floating col-1" href="https://www.linkedin.com/in/patricia-regina-dar%C3%B3s-60089017a/" target = "_black" role="button"><i class="fab fa-linkedin-in" style='font-size:30px'></i></a>
+            <a class="btn btn-outline-light btn-floating col-1"  href="https://github.com/PatriciaDaros" target = "_black" role="button" ><i class="fab fa-github" style='font-size:30px'></i></a>
+        </section>
+        <section class="rodape-itens">
+            © 2023 Copyright: Patrícia Regina Darós
+        </section>
+  </footer>
+</body>
+
+</html>

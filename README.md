@@ -8,17 +8,22 @@
 <!-- ============== ABOUT ============== -->
 ## About the project
 
-<div align="center">
+<div>
   Projeto de um sistema para adoção de pets. 
 
   Projeto desenvolvido durante o bootcamp PYSTACK WEEK - O RETORNO, com foco no backend utilizando Python e Django.
   
   O sistema possui as seguintes funcionalidades:
-   > Cadastro de Usuário;
-   > Validação e login de Usuário;
-   > Aba para visualização dos pets para adoção;
-   > Estatísticas relacionadas às adoções;
-   > Visualização de solicitação de adoção dos seus pets.
+  
+  >Cadastro de Usuário;
+  
+  >Validação e login de Usuário;
+  
+  >Aba para visualização dos pets para adoção;
+  
+  >Estatísticas relacionadas às adoções;
+  
+  >Visualização de solicitação de adoção dos seus pets.
 
 </div>
 

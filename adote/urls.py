@@ -9,4 +9,5 @@ urlpatterns = [
     path('auth/', include('usuarios.urls')),
     path('', views.index),
     path('divulgar/', include('divulgar.urls')),
+    path('adotar/', include('adotar.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

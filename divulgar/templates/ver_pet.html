@@ -15,18 +15,15 @@
 
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-2 bg-side-plataforma sidebar">
-                    <h2>ADO.TE</h2>
-                    <hr>
-                    
-                    <h4><a class="nav-link " href="{% url 'novo_pet' %}"> Divulgar </a> </h4>
-                    <h4><a class="nav-link " href="{% url 'seus_pets' %}"> Seus pets </a> </h4>
-                    <h4><a class="nav-link" href="{% url 'ver_pedido_adocao' %}"> Solicitações </a> </h4>
-                    <h4> <a class="nav-link" href="{% url 'dashboard' %}"> Dashboards </a> </h4>
-                    <h4> <a class="nav-link font-vinho" href="{% url 'listar_pets' %}"> Adotar </a> </h4>
-                    <h4> <a class="nav-link" href="{% url 'sair' %}"> Logout </a> </h4>
-
-                </div>
+                <nav class="cabecalho navbar na1vbar-light" style="background-color: #836FFF;">
+                    <i class="fa fa-bars alter" style="font-size:24px"></i>
+                    <h4><a class="cabecalho-menu-item nav-link" href="{% url 'novo_pet' %}"> Divulgar </a> </h4>
+                    <h4><a class="cabecalho-menu-item nav-link" href="{% url 'seus_pets' %}"> Seus pets </a> </h4>
+                    <h4><a class="cabecalho-menu-item nav-link" href="{% url 'ver_pedido_adocao' %}"> Solicitações </a> </h4>
+                    <h4><a class="cabecalho-menu-item nav-link" href="{% url 'dashboard' %}"> Dashboards </a> </h4>
+                    <h4><a class="cabecalho-menu-item nav-link destaque" href="{% url 'listar_pets' %}"> Adotar </a> </h4>
+                    <h4><a class="cabecalho-menu-item nav-link" href="{% url 'sair' %}"> Logout </a> </h4>
+                </nav>
 
                 <div style="padding:60px" class="col-md">
                     <h3 class="font-vinho">Informações do pet</h3>

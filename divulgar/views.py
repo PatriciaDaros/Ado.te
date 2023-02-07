@@ -86,7 +86,6 @@ def dashboard(request):
 @csrf_exempt
 def api_adocoes_por_raca(request):
     pets = Pet.objects.all()
-    racas = Raca.objects.all()
 
     qtd_adocoes = []
     for pet1 in pets:
@@ -94,6 +93,22 @@ def api_adocoes_por_raca(request):
         qtd_adocoes.append(adocoes)
 
     pets = [pet.estado for pet in pets]
+    
+    data = {'qtd_adocoes': qtd_adocoes,
+            'labels': pets}
+
+    return JsonResponse(data)
+
+@csrf_exempt
+def api_adocoes_por_cidade(request):
+    pets = Pet.objects.all()
+
+    qtd_adocoes = []
+    for pet1 in pets:
+        adocoes = PedidoAdocao.objects.filter(pet__cidade=pet1.cidade).count()
+        qtd_adocoes.append(adocoes)
+
+    pets = [pet.cidade for pet in pets]
     
     data = {'qtd_adocoes': qtd_adocoes,
             'labels': pets}

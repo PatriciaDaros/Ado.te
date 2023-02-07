@@ -9,4 +9,5 @@ urlpatterns = [
     path('ver_pedido_adocao/', views.ver_pedido_adocao, name="ver_pedido_adocao"),
     path('dashboard/', views.dashboard, name="dashboard"),
     path('api_adocoes_por_raca/', views.api_adocoes_por_raca, name="api_adocoes_por_raca"),
+    path('api_adocoes_por_cidade/', views.api_adocoes_por_cidade, name="api_adocoes_por_cidade"),
 ]

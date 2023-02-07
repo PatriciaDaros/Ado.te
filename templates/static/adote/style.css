@@ -13,6 +13,10 @@ body {
   background: linear-gradient(68.15deg, #2F2325 16.62%, #7D6FD6 85.61%);
 }
 
+.alter {
+    {% comment %} display: none; {% endcomment %}
+}
+
 .cabecalho {
   display: flex;
   flex-direction: row;

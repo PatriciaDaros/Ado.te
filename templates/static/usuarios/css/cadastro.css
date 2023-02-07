@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
 .bg-side{
     background-color: #391D34;
     color: white;
@@ -41,3 +44,69 @@
     text-align: center;
     margin-top: 60px;    
 }
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 24px;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #7D6FD6 85.61%);
+    gap: 32px;
+  }
+  
+  .cabecalho-imagem {
+    height: 72px;
+  }
+  
+  .cabecalho-menu {
+    display: flex;
+  }
+  
+  .cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px
+  }
+
+.conteudo-main {
+    display: flex;
+    flex-direction: row;
+} 
+
+@media (max-width: 1200px) {
+    .conteudo-main {
+        flex-direction: column;
+        width: 90%;
+    }
+}
+
+.alter {
+    display: none;
+}
+
+@media (max-width: 850px) {
+    .conteudo-main {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cabecalho-menu-item {
+        display: none;
+    }
+
+    .alter {
+        justify-content: flex-end;
+        display: inline;
+    }
+
+    .cabecalho {
+        gap: 0px;
+      }
+
+}
+
+.destaque {
+    color: black;
+  }

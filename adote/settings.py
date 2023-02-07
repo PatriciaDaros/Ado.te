@@ -1,11 +1,12 @@
 from pathlib import Path
 import os
 from django.contrib.messages import constants
+from decouple import config
+
+
+SECRET_KEY = config("SECRET_KEY")
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-
-
-SECRET_KEY = 'django-insecure-h-37w^=i5blh=e-l^p$j4!))vr%$moyc829h(zm@88v4)lj7v5'
 
 DEBUG = True
 

@@ -8,7 +8,7 @@
 <a href="#"><img src="Animação_Adote.gif" alt="Logo"></a>
 
 <!-- ============== ABOUT ============== -->
-## About the project
+## Sobre o projeto
 
 <div>
   Projeto de um sistema para adoção de pets. 
@@ -31,7 +31,7 @@
 
 
 <!-- ============== LANGUAGE ============== -->
-## Language and tools
+## Linguagem e ferramentas
 
 ```
 > Python3
@@ -40,10 +40,11 @@
 > HTML
 > CSS
 > Venv
+> DB sqlite3
 ```
 
 <!-- ============== INSTALLATION ============== -->
-## Installation
+## Instalação
 
 ```
 git clone https://github.com/PatriciaDaros/Adote.git
@@ -51,12 +52,12 @@ git clone https://github.com/PatriciaDaros/Adote.git
 
 
 <!-- ============== LICENSE ============== -->
-## License
+## Licença
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- ============== AUTHOR ============== -->
-## Author
+## Autor
 
 [<img alt="PatriciaRegina" src="https://github.com/PatriciaDaros.png?size=300" width="115"><br><sub>@PatriciaDaros</sub>](https://github.com/PatriciaDaros)
 

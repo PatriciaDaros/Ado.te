@@ -4,6 +4,8 @@
   <h3>Adote</h3>
 </div>
 
+## O projeto
+<a href="#"><img src="Animação_Adote.gif" alt="Logo"></a>
 
 <!-- ============== ABOUT ============== -->
 ## About the project
@@ -26,8 +28,6 @@
   >Visualização de solicitação de adoção dos seus pets.
 
 </div>
-
-<a href="#"><img src="Animação_Adote.gif" alt="Logo"></a>
 
 
 <!-- ============== LANGUAGE ============== -->
@@ -54,7 +54,6 @@ git clone https://github.com/PatriciaDaros/Adote.git
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
 
 <!-- ============== AUTHOR ============== -->
 ## Author

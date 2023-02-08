@@ -4,16 +4,12 @@
   <h3>Adote</h3>
 </div>
 
-## O projeto
-<a href="#"><img src="Animação_Adote.gif" alt="Logo"></a>
-
 <!-- ============== ABOUT ============== -->
 ## Sobre o projeto
-
+  Projeto de um sistema para adoção de pets desenvolvido durante o bootcamp PYSTACK WEEK - O RETORNO, com foco no backend utilizando Python e Django.
+  <a href="#"><img src="Animação_Adote.gif" alt="Logo"></a>
+  
 <div>
-  Projeto de um sistema para adoção de pets. 
-
-  Projeto desenvolvido durante o bootcamp PYSTACK WEEK - O RETORNO, com foco no backend utilizando Python e Django.
   
   O sistema possui as seguintes funcionalidades:
   

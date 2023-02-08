@@ -27,6 +27,8 @@
 
 </div>
 
+<a href="#"><img src="Animação_Adote.gif" alt="Logo"></a>
+
 
 <!-- ============== LANGUAGE ============== -->
 ## Language and tools
